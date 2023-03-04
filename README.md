@@ -42,12 +42,12 @@ Put "TRADFRI Remote" node instead of switch node, Now you can use the output as 
 | `OUTPUT 13`    | brightness down release  |
 | `OUTPUT 14`    | brightness up release |
 
-![racksync-screenshot](https://github.com/racksync/node-red-contrib-tradfri-remote/blob/main/images/screenshot.png?raw=true)
-
+![racksync-screenshot](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/blob/main/images/screenshot.png?raw=true)
+                       
 ### Package Repository
 
-- [flows](https://flows.nodered.org/node/@racksync/node-red-contrib-tradfri-remote)
-- [npmjs](https://www.npmjs.com/package/@racksync/node-red-contrib-tradfri-remote/access)
+- [flows](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-tradfri-remote)
+- [npmjs](https://www.npmjs.com/package/@racksync/node-red-contrib-hass-tradfri-remote/access)
 
 ### Additional Resources
 If you are new to Node-RED or Home Assistant, the following resources may be helpful:
