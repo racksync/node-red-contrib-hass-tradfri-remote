@@ -1,8 +1,13 @@
 ### CHANGELOG
 
-## 1.0.0 
+## 1.0.0b
  
- - First Launch Edition
+ - Fix conflicted with other node
+
+## 1.0.0a
+ 
+ - Fix mistake url
+
 ## 1.0.0 
  
  - First Launch Edition
