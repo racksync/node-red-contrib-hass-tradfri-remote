@@ -1,7 +1,7 @@
 # TRÅDFRI Remote Node is Node-RED Module for Home Assistant
 
 [![Platform](https://img.shields.io/badge/platform-Node--RED-red)](https://nodered.org)
-[![node-red-contrib-hass-flow](https://img.shields.io/github/v/release/racksync/node-red-contrib-hass-flow)](https://github.com/racksync/node-red-contrib-hass-flow/releases) [![last commit](https://img.shields.io/github/last-commit/racksync/node-red-contrib-hass-flow)](https://github.com/racksync/node-red-contrib-hass-flow/commit/)
+[![node-red-contrib-hass-flow](https://img.shields.io/github/v/release/racksync/node-red-contrib-hass-tradfri-remote)](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/releases) [![last commit](https://img.shields.io/github/last-commit/racksync/node-red-contrib-hass-tradfri-remote)](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/commit/)
 
 This repository contains the IKEA TRÅDFRI Remote Node-RED Node, which serves as an integration for Home Assistant. This Node allows you to easier interact with IKEA wireless remote control and automate various lighting scenarios using Home Assistant via Node-RED.
 
