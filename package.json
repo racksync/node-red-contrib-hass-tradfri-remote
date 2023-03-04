@@ -1,0 +1,25 @@
+{
+  "name": "@racksync/node-red-contrib-hass-tradfri-remote",
+  "version": "1.0.0",
+  "description": "Make Home Assistant integration more powerful with IKEA TRÅDFRI Remote node",
+  "homepage": "https://github.com/racksync/node-red-contrib-hass-tradfri-remote",
+  "bugs": {
+    "url": "https://github.com/racksync/node-red-contrib-hass-tradfri-remote/issues",
+    "email" : "bugs@racksync.com"
+  },
+  //"dependencies": {
+  //  "node-red-contrib-traffic": ">=0.2.1"
+  //},
+  "keywords": [ "node-red","Home Assistant", "HASS", "RACKSYNC" ],
+  "node-red": {
+    "version": ">=2.0.0",
+    "nodes": {
+        "TRADFRI Remote": "flows/tradfri-remote.js"
+    }
+  },
+  "engines": {
+      "node": ">=12.0.0"
+    },
+  "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
+  "license": "MIT"
+}

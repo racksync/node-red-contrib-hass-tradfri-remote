@@ -1,0 +1,356 @@
+    {
+        "id": "3e85e6a5f3bc71b9",
+        "type": "subflow",
+        "name": "Ikea Tradfri Remote",
+        "info": "Make Home Assistant integration more powerful with IKEA TRÅDFRI Remote node",
+        "category": "RACKSYNC",
+        "in": [
+            {
+                "x": 220,
+                "y": 340,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 790,
+                "y": 80,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 0
+                    }
+                ]
+            },
+            {
+                "x": 810,
+                "y": 140,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 1
+                    }
+                ]
+            },
+            {
+                "x": 820,
+                "y": 200,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 2
+                    }
+                ]
+            },
+            {
+                "x": 820,
+                "y": 260,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 3
+                    }
+                ]
+            },
+            {
+                "x": 830,
+                "y": 320,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 4
+                    }
+                ]
+            },
+            {
+                "x": 840,
+                "y": 380,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 5
+                    }
+                ]
+            },
+            {
+                "x": 820,
+                "y": 440,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 6
+                    }
+                ]
+            },
+            {
+                "x": 820,
+                "y": 500,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 7
+                    }
+                ]
+            },
+            {
+                "x": 830,
+                "y": 560,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 8
+                    }
+                ]
+            },
+            {
+                "x": 840,
+                "y": 620,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 9
+                    }
+                ]
+            },
+            {
+                "x": 830,
+                "y": 680,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 10
+                    }
+                ]
+            },
+            {
+                "x": 830,
+                "y": 740,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 11
+                    }
+                ]
+            },
+            {
+                "x": 850,
+                "y": 800,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 12
+                    }
+                ]
+            },
+            {
+                "x": 840,
+                "y": 860,
+                "wires": [
+                    {
+                        "id": "6ac68ea61518fd72",
+                        "port": 13
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {
+            "module": "node-red-contrib-hass-tradfri-remote",
+            "version": "1.0.0",
+            "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
+            "desc": "Make Home Assistant integration more powerful with IKEA TRÅDFRI Remote node",
+            "keywords": "Home Assistant, HASS, RACKSYNC, Flow, IKEA, Tradfri, Remote, Action, Click",
+            "license": "MIT"
+        },
+        "color": "#befc03",
+        "inputLabels": [
+            "tradfri remote"
+        ],
+        "outputLabels": [
+            "toggle",
+            "toggle hold",
+            "arrow left click",
+            "arrow right click",
+            "brightness up click",
+            "brightness down click",
+            "arrow right hold",
+            "arrow left hold",
+            "brightness up hold",
+            "brightness down hold",
+            "arrow left release",
+            "arrow right release",
+            "brightness down release",
+            "brightness up release"
+        ],
+        "icon": "font-awesome/fa-wifi",
+        "status": {
+            "x": 600,
+            "y": 60,
+            "wires": [
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 0
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 1
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 2
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 3
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 4
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 5
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 6
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 7
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 8
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 9
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 10
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 11
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 12
+                },
+                {
+                    "id": "6ac68ea61518fd72",
+                    "port": 13
+                }
+            ]
+        },
+    
+    "flow":[
+        {
+            "id": "6ac68ea61518fd72",
+            "type": "switch",
+            "z": "aa860175f6d47db6",
+            "name": "Button Action Filter",
+            "property": "payload",
+            "propertyType": "msg",
+            "rules": [
+                {
+                    "t": "eq",
+                    "v": "toggle",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "toggle_hold",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "arrow_left_click",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "arrow_right_click",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "brightness_up_click",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "brightness_down_click",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "arrow_right_hold",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "arrow_left_hold",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "brightness_up_hold",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "brightness_down_hold",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "arrow_left_release",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "arrow_right_release",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "brightness_down_release",
+                    "vt": "str"
+                },
+                {
+                    "t": "eq",
+                    "v": "brightness_up_release",
+                    "vt": "str"
+                }
+            ],
+            "checkall": "true",
+            "repair": false,
+            "outputs": 14,
+            "x": 390,
+            "y": 340,
+            "wires": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+            ]
+        }
+    ] 
+    }
