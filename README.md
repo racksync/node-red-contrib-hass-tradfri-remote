@@ -46,8 +46,9 @@ Put "TRADFRI Remote" node instead of switch node, Now you can use the output as 
 
                       
 ### Node-RED Node by RACKSYNC
-- [flows](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-flow)
+- [Toggle Flows](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-flow)
 - [Tradfri Remote](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-tradfri-remote)
+
 
 ![racksync-node](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/blob/main/images/nodes.png?raw=true)
 
