@@ -1,5 +1,9 @@
 ### CHANGELOG
 
+## 1.0.1
+ 
+ - Just fix to prettier version number
+
 ## 1.0.0b
  
  - Fix conflicted with other node
