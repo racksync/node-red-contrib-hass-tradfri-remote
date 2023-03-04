@@ -7,9 +7,7 @@
     "url": "https://github.com/racksync/node-red-contrib-hass-tradfri-remote/issues",
     "email" : "bugs@racksync.com"
   },
-  //"dependencies": {
-  //  "node-red-contrib-traffic": ">=0.2.1"
-  //},
+  "dependencies": [],
   "keywords": [ "node-red","Home Assistant", "HASS", "RACKSYNC" ],
   "node-red": {
     "version": ">=2.0.0",
