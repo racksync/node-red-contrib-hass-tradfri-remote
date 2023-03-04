@@ -18,7 +18,7 @@ Before using the IKEA TRÅDFRI Remote Node-RED Node, you must have the following
 You can install the nodes using "Manage palette" from node-red kebab menu or run the following command in the root directory of your Node-RED installation
 
 ```
-npm install node-red-contrib-tradfri-remote --save
+npm install node-red-contrib-hass-tradfri-remote --save
 ```
 
 # Usage
