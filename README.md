@@ -3,6 +3,8 @@
 [![Platform](https://img.shields.io/badge/platform-Node--RED-red)](https://nodered.org)
 [![node-red-contrib-hass-flow](https://img.shields.io/github/v/release/racksync/node-red-contrib-hass-tradfri-remote)](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/releases) [![last commit](https://img.shields.io/github/last-commit/racksync/node-red-contrib-hass-tradfri-remote)](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/commit/)
 
+![racksync-screenshot](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/blob/main/images/screenshot.png?raw=true)
+
 This repository contains the IKEA TRÅDFRI Remote Node-RED Node, which serves as an integration for Home Assistant. This Node allows you to easier interact with IKEA wireless remote control and automate various lighting scenarios using Home Assistant via Node-RED.
 
 # Prerequisites
@@ -42,8 +44,7 @@ Put "TRADFRI Remote" node instead of switch node, Now you can use the output as 
 | `OUTPUT 13`    | brightness down release  |
 | `OUTPUT 14`    | brightness up release |
 
-![racksync-screenshot](https://github.com/racksync/node-red-contrib-hass-tradfri-remote/blob/main/images/screenshot.png?raw=true)
-                       
+                      
 ### Package Repository
 
 - [flows](https://flows.nodered.org/node/@racksync/node-red-contrib-hass-tradfri-remote)
