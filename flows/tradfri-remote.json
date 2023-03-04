@@ -160,7 +160,7 @@
         "env": [],
         "meta": {
             "module": "node-red-contrib-hass-tradfri-remote",
-            "version": "1.0.0",
+            "version": "1.0.0a",
             "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
             "desc": "Make Home Assistant integration more powerful with IKEA TRÅDFRI Remote node",
             "keywords": "Home Assistant, HASS, RACKSYNC, Flow, IKEA, Tradfri, Remote, Action, Click",

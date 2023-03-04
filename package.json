@@ -1,6 +1,6 @@
 {
   "name": "@racksync/node-red-contrib-hass-tradfri-remote",
-  "version": "1.0.0",
+  "version": "1.0.0a",
   "description": "Make Home Assistant integration more powerful with IKEA TRÅDFRI Remote node",
   "homepage": "https://github.com/racksync/node-red-contrib-hass-tradfri-remote",
   "bugs": {
