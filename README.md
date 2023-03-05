@@ -25,7 +25,7 @@ npm install node-red-contrib-hass-tradfri-remote --save
 
 # Usage
 
-Put "TRADFRI Remote" node instead of switch node, Now you can use the output as each click below.
+Use "TRADFRI Remote" node instead of switch node as output selection, Now you can use the output as `msg.payload` for each action/click  as following.
 
 | Output | Click/Action |
 |---------------|---------------|
