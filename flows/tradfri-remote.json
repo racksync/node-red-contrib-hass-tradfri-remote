@@ -160,7 +160,7 @@
         "env": [],
         "meta": {
             "module": "node-red-contrib-hass-tradfri-remote",
-            "version": "1.0.0a",
+            "version": "1.0.2",
             "author": "RACKSYNC CO., LTD. <jack@racksync.com>",
             "desc": "Make Home Assistant integration more powerful with IKEA TRÅDFRI Remote node",
             "keywords": "Home Assistant, HASS, RACKSYNC, Flow, IKEA, Tradfri, Remote, Action, Click",
@@ -350,50 +350,26 @@
                 [],
                 [],
                 []
+            ],
+            "inputLabels": [
+                "TRADFRI Remote Payload"
+            ],
+            "outputLabels": [
+                "toggle",
+                "toggle hold",
+                "arrow left click",
+                "arrow right click",
+                "brightness up click",
+                "brightness down click",
+                "arrow right hold",
+                "arrow left hold",
+                "brightness up hold",
+                "brightness down hold",
+                "arrow left release",
+                "arrow right release",
+                "brightness down release",
+                "brightness up release"
             ]
-        },
-        {
-        "id": "761dd2adc8d5c1fb",
-        "type": "subflow:aa860175f6d47db6",
-        "z": "3527df15ccfc0630",
-        "name": "",
-        "x": 570,
-        "y": 260,
-        "wires": [
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            [],
-            []
-        ],
-        "inputLabels": [
-            "TRADFRI Remote Payload"
-        ],
-        "outputLabels": [
-            "toggle",
-            "toggle hold",
-            "arrow left click",
-            "arrow right click",
-            "brightness up click",
-            "brightness down click",
-            "arrow right hold",
-            "arrow left hold",
-            "brightness up hold",
-            "brightness down hold",
-            "arrow left release",
-            "arrow right release",
-            "brightness down release",
-            "brightness up release"
-        ]
-    }
+        }
     ] 
     }
