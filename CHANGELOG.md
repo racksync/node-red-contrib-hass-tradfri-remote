@@ -1,5 +1,11 @@
 ### CHANGELOG
 
+## 1.0.2
+ 
+ - Add Help
+ - Add Example
+ - Add Ports label
+
 ## 1.0.1
  
  - Just fix to prettier version number
