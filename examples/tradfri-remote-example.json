@@ -1,0 +1,263 @@
+[
+    {
+        "id": "cc75fd35324ccd73",
+        "type": "api-call-service",
+        "z": "3527df15ccfc0630",
+        "name": "Turn Entity On",
+        "server": "5a745765.1b0568",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.wled_reverse"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 780,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c1a17d69aa224bcb",
+        "type": "server-state-changed",
+        "z": "3527df15ccfc0630",
+        "name": "tradfri remote",
+        "server": "5a745765.1b0568",
+        "version": 4,
+        "exposeToHomeAssistant": false,
+        "haConfig": [
+            {
+                "property": "name",
+                "value": ""
+            },
+            {
+                "property": "icon",
+                "value": ""
+            }
+        ],
+        "entityidfilter": "sensor.ikea_tradfri_remote_01_action",
+        "entityidfiltertype": "exact",
+        "outputinitially": false,
+        "state_type": "str",
+        "haltifstate": "",
+        "halt_if_type": "str",
+        "halt_if_compare": "is",
+        "outputs": 1,
+        "output_only_on_state_change": true,
+        "for": "0",
+        "forType": "num",
+        "forUnits": "minutes",
+        "ignorePrevStateNull": false,
+        "ignorePrevStateUnknown": false,
+        "ignorePrevStateUnavailable": false,
+        "ignoreCurrentStateUnknown": false,
+        "ignoreCurrentStateUnavailable": false,
+        "outputProperties": [
+            {
+                "property": "payload",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "entityState"
+            },
+            {
+                "property": "data",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "eventData"
+            },
+            {
+                "property": "topic",
+                "propertyType": "msg",
+                "value": "",
+                "valueType": "triggerId"
+            }
+        ],
+        "x": 170,
+        "y": 260,
+        "wires": [
+            [
+                "19229124de672292"
+            ]
+        ]
+    },
+    {
+        "id": "19229124de672292",
+        "type": "sf:aa860175f6d47db6",
+        "z": "3527df15ccfc0630",
+        "name": "",
+        "x": 450,
+        "y": 260,
+        "wires": [
+            [
+                "cc75fd35324ccd73"
+            ],
+            [
+                "7e929de5e8663af2"
+            ],
+            [
+                "952f5fe4d7e3c50c"
+            ],
+            [
+                "c083023fdabde7a0"
+            ],
+            [
+                "1bf6d9b1de11e4ce"
+            ],
+            [
+                "401caa6903b86383"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "7e929de5e8663af2",
+        "type": "api-call-service",
+        "z": "3527df15ccfc0630",
+        "name": "Turn Entity On",
+        "server": "5a745765.1b0568",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.wled_reverse"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 780,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "952f5fe4d7e3c50c",
+        "type": "api-call-service",
+        "z": "3527df15ccfc0630",
+        "name": "Turn Entity On",
+        "server": "5a745765.1b0568",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.wled_reverse"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 780,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c083023fdabde7a0",
+        "type": "api-call-service",
+        "z": "3527df15ccfc0630",
+        "name": "Turn Entity On",
+        "server": "5a745765.1b0568",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.wled_reverse"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 780,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1bf6d9b1de11e4ce",
+        "type": "api-call-service",
+        "z": "3527df15ccfc0630",
+        "name": "Turn Entity On",
+        "server": "5a745765.1b0568",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.wled_reverse"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 780,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "401caa6903b86383",
+        "type": "api-call-service",
+        "z": "3527df15ccfc0630",
+        "name": "Turn Entity On",
+        "server": "5a745765.1b0568",
+        "version": 5,
+        "debugenabled": false,
+        "domain": "switch",
+        "service": "turn_on",
+        "areaId": [],
+        "deviceId": [],
+        "entityId": [
+            "switch.wled_reverse"
+        ],
+        "data": "",
+        "dataType": "jsonata",
+        "mergeContext": "",
+        "mustacheAltTags": false,
+        "outputProperties": [],
+        "queue": "none",
+        "x": 780,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    }
+]
