@@ -351,6 +351,49 @@
                 [],
                 []
             ]
-        }
+        },
+        {
+        "id": "761dd2adc8d5c1fb",
+        "type": "subflow:aa860175f6d47db6",
+        "z": "3527df15ccfc0630",
+        "name": "",
+        "x": 570,
+        "y": 260,
+        "wires": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "inputLabels": [
+            "TRADFRI Remote Payload"
+        ],
+        "outputLabels": [
+            "toggle",
+            "toggle hold",
+            "arrow left click",
+            "arrow right click",
+            "brightness up click",
+            "brightness down click",
+            "arrow right hold",
+            "arrow left hold",
+            "brightness up hold",
+            "brightness down hold",
+            "arrow left release",
+            "arrow right release",
+            "brightness down release",
+            "brightness up release"
+        ]
+    }
     ] 
     }
